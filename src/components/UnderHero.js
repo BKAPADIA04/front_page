@@ -17,7 +17,7 @@ export default function UnderHero() {
 
   return (
     <>
-    <div className="container row g-0 row-cols-1 row-cols-lg-3">
+    <div className="container cont-1 row g-0 row-cols-1 row-cols-lg-3">
         <div className="box-1 pb-4 px-3 mb-0 col d-flex align-items-start">
             <div className="icon icon-square text-body-emphasis bg-body-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
@@ -73,12 +73,34 @@ export default function UnderHero() {
     <div className="container mt-2 container-data-increase container row row-cols-1 row-cols-sm-2 row-cols-md-4">
         <div className="data-box data-box-1 pb-3 px-3 mb-0 col d-flex align-items-start">
           <div className="container-inside container-inside-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 19 16" fill="none">
-            <path d="M9.97598 15.3416C9.69264 15.4416 9.22598 15.4416 8.94264 15.3416C6.52598 14.5166 1.12598 11.0749 1.12598 5.24158C1.12598 2.66658 3.20098 0.583252 5.75931 0.583252C7.27598 0.583252 8.61764 1.31659 9.45931 2.44992C10.301 1.31659 11.651 0.583252 13.1593 0.583252C15.7176 0.583252 17.7926 2.66658 17.7926 5.24158C17.7926 11.0749 12.3926 14.5166 9.97598 15.3416Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 13 13" fill="none">
+  <path d="M3.76758 6.55343L5.16044 4.19629H7.67829L9.07115 6.55343L7.83901 8.80343H5.16044L3.76758 6.55343Z" fill="url(#paint0_linear_29_32)"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.39856 11.671C10.526 11.0201 10.1207 8.20755 8.49348 5.38904C6.86621 2.57053 4.63311 0.813344 3.5057 1.46425C2.3783 2.11516 2.78352 4.92768 4.41078 7.74619C6.03805 10.5647 8.27115 12.3219 9.39856 11.671Z" stroke="white" stroke-width="0.428571"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50542 11.6709C4.63283 12.3219 6.86593 10.5647 8.4932 7.74615C10.1205 4.92764 10.5257 2.11512 9.39828 1.46422C8.27088 0.813309 6.03777 2.5705 4.41051 5.38901C2.78324 8.20752 2.37802 11.02 3.50542 11.6709Z" stroke="white" stroke-width="0.428571"/>
+  <path d="M12.1247 7.20466C12.2988 6.98214 12.3926 6.74543 12.3926 6.49997C12.3926 5.19815 9.75426 4.14282 6.49972 4.14282C4.50669 4.14282 2.74476 4.53859 1.67829 5.14436M11.3211 7.85557C10.2547 8.46134 8.49275 8.85711 6.49972 8.85711C3.24519 8.85711 0.606864 7.80178 0.606864 6.49997C0.606864 6.24549 0.707681 6.00042 0.894212 5.77082" stroke="white" stroke-width="0.321429" stroke-linejoin="round"/>
+  <path d="M8.49335 7.74605C10.1206 4.92754 10.5258 2.11502 9.39844 1.46411" stroke="white" stroke-width="0.428571"/>
+  <path d="M3.50556 11.6709C2.37816 11.0199 2.78338 8.20743 4.41064 5.38892" stroke="white" stroke-width="0.428571"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7501 8.10707C12.0459 8.10707 12.2858 7.86723 12.2858 7.57136C12.2858 7.27549 12.0459 7.03564 11.7501 7.03564C11.4542 7.03564 11.2144 7.27549 11.2144 7.57136C11.2144 7.86723 11.4542 8.10707 11.7501 8.10707Z" stroke="#3CE1CD" stroke-width="0.321429"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25007 5.96425C1.54594 5.96425 1.78578 5.7244 1.78578 5.42854C1.78578 5.13267 1.54594 4.89282 1.25007 4.89282C0.954203 4.89282 0.714355 5.13267 0.714355 5.42854C0.714355 5.7244 0.954203 5.96425 1.25007 5.96425Z" stroke="#3CE1CD" stroke-width="0.321429"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.78578 5.75014L6.50007 5L5.21436 5.75014V7.25014L6.50007 8L7.78578 7.25014V5.75014Z" stroke="#3CE1CD" stroke-width="0.321429" stroke-linecap="round"/>
+  <path d="M5.32959 5.80347L6.41377 6.39404" stroke="#3CE1CD" stroke-width="0.321429" stroke-linecap="round"/>
+  <path d="M6.60693 6.39404L7.71918 5.80347" stroke="#3CE1CD" stroke-width="0.321429" stroke-linecap="round"/>
+  <path d="M6.5 6.50122V7.78693" stroke="#3CE1CD" stroke-width="0.321429" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="paint0_linear_29_32" x1="6.41936" y1="4.19629" x2="6.41936" y2="8.80343" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3CE1CD"/>
+      <stop offset="1" stop-color="#3873FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
           </div>
           <div className="container-inside container-inside-2 boxes-1">
-            <Number n={17} delay={1000}/>
+            <div className="number">
+              <Number n={24} delay={1000}/>
+            </div>
+            <div>
+              +
+            </div>
           </div>
           <div className="container-inside-3 in-1">
           Years Of Experience
@@ -91,7 +113,12 @@ export default function UnderHero() {
             </svg>
           </div>
           <div className="container-inside container-inside-2 boxes-2">
-          <Number n={999} delay={1000}/>
+          <div className="number">
+              <Number n={999} delay={1000}/>
+            </div>
+            <div>
+              +
+            </div>
           </div>
           <div className="container-inside-3 in-2">
           Happy Patients
@@ -107,7 +134,12 @@ export default function UnderHero() {
         </svg>
           </div>
           <div className="container-inside container-inside-2 boxes-3">
-          <Number n={157} delay={1000}/>
+          <div className="number">
+              <Number n={157} delay={1000}/>
+            </div>
+            <div>
+              +
+            </div>
           </div>
           <div className="container-inside-3 in-3">
           Certificates
@@ -115,12 +147,18 @@ export default function UnderHero() {
         </div>
         <div className="data-box data-box-4 pb-3 px-3 mb-0 col d-flex align-items-start">
           <div className="container-inside container-inside-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 19 16" fill="none">
-            <path d="M9.97598 15.3416C9.69264 15.4416 9.22598 15.4416 8.94264 15.3416C6.52598 14.5166 1.12598 11.0749 1.12598 5.24158C1.12598 2.66658 3.20098 0.583252 5.75931 0.583252C7.27598 0.583252 8.61764 1.31659 9.45931 2.44992C10.301 1.31659 11.651 0.583252 13.1593 0.583252C15.7176 0.583252 17.7926 2.66658 17.7926 5.24158C17.7926 11.0749 12.3926 14.5166 9.97598 15.3416Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6C9.79086 6 8 7.79086 8 10C8 12.2091 9.79086 14 12 14C14.2091 14 16 12.2091 16 10C16 7.79086 14.2091 6 12 6Z" fill="white"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M7 2C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2H7ZM4 7C4 5.34315 5.34315 4 7 4H17C18.6569 4 20 5.34315 20 7V17C20 17.8687 19.6307 18.6512 19.0406 19.1991C17.6885 16.6996 15.0436 15 11.9998 15C8.95605 15 6.31122 16.6995 4.95907 19.1988C4.36913 18.651 4 17.8686 4 17V7Z" fill="white"/>
+        </svg>
           </div>
           <div className="container-inside container-inside-2 boxes-4">
-          <Number n={47} delay={1000}/>
+          <div className="number">
+              <Number n={49} delay={1000}/>
+            </div>
+            <div>
+              +
+            </div>
           </div>
           <div className="container-inside-3 in-4">
           Doctors
